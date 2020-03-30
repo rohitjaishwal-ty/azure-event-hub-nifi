@@ -11,7 +11,7 @@ import com.azure.messaging.eventhubs.models.EventContext;
 public class Receiver {
 
 	final static String connectionString = "Endpoint=sb://myfirstazureeventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=<AccessKey>";
-	final static String eventHubName = "projecthub";
+	final static String eventHubName = "<EventHubName>";
 
 	public static void main(String[] args) throws Exception {
 
